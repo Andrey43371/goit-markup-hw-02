@@ -9,9 +9,11 @@ body {
   list-style-type: none;
 }
 
-.ikon {
-  text-decoration: none;
+.link {
+    text-decoration: none;
 }
+
+
 
 .header {
   position: absolute;
@@ -124,7 +126,7 @@ body {
   flex-grow: 0;
 }
 
-/*contacts */
+
 
 .menu-contacts {
   width: 67px;
@@ -145,6 +147,7 @@ body {
 .link:focus {
   color: tomato;
 }
+/*contacts */
 
 .mail {
   position: absolute;
@@ -441,7 +444,7 @@ body {
   top: 1864px;
 }
 
-.footer-link {
+.footer-logo {
   display: flex;
   flex-direction: row;
   align-items: center;

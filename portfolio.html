@@ -18,17 +18,17 @@
 
 <body>
     <header class="header">
-
         <nav class="header-nav">
-            <a href="./index.html" class="header-logo-web ikon">
-                Web<span class="header-logo-studio">Studio</span>
+            <a href="./index.html" class="header-logo">
+                <span class="header-logo-web">Web</span>
+                <span class="header-logo-studio">Studio</span>
             </a>
+            <ul class="menu">
+                <li class="menu-studio list-item"><a class="link" href="./index.html">Studio</a></li>
+                <li class="menu-portfolio list-item"><a class="link" href="./portfolio.html">Portfolio</a></li>
+                <li class="menu-contacts list-item"><a class="link" href="">Contacts</a></li>
+            </ul>
         </nav>
-        <ul class="name list-style">
-            <li class="name-item studio"><a class="name-link ikon" href="./index.html">Studio</a></li>
-            <li class="name-item portfolio"><a class="name-link ikon" href="./portfolio.html">Portfolio</a></li>
-            <li class="name-item contacts"><a class="name-link ikon" href="">Contacts</a></li>
-        </ul>
 
         <!-- contacts-->
         <address>
@@ -45,12 +45,12 @@
     <!-- btn -->
 
     <h1 hidden>heidden text</h1>
-    <div class="btn">
-        <button type="button">All</button>
-        <button type="button">Web Site</button>
-        <button type="button">App</button>
-        <button type="button">Design</button>
-        <button type="button">Marketing</button>
+    <div class="filters">
+        <button class="filters-btn-active " type="button"><span class="filters-btn-text">All</span></button>
+        <button class="filters-btn" type="button"><span class="filters-btn-text">Web Site</span></button>
+        <button class="filters-btn" type="button"><span class="filters-btn-text">App</span></button>
+        <button class="filters-btn" type="button"><span class="filters-btn-text">Design</span></button>
+        <button class="filters-btn" type="button"><span class="filters-btn-text">Marketing</span></button>
     </div>
 
     <section>
@@ -58,26 +58,26 @@
         <!-- row1 -->
 
         <ul class="items-row1 list-style">
-            <li class="items-concept">
-                <a class="ikon" href="">
-                    <img class="user-concept" src="./images/row1/img1.jpg" alt="Interface Concept" width="360">
-                    <h2 class="title-concept">Banking App Interface Concept</h2>
-                    <p class="lead-concept">App</p>
+            <li class="list-item items-concept">
+                <img class="card-img" src="./images/row1/img1.jpg" alt="Interface Concept" width="360">
+                <a class="card-content link" href="">
+                    <h2> <span class="card-text1">Banking App Interface Concept</span></h2>
+                    <span class="card-text2">App</span>
                 </a>
             </li>
 
-            <li class="items-payment">
-                <a class="ikon" href="">
-                    <img class="user-payment" src="./images/row1/img2.jpg" alt="Cashless Payment" width="360">
-                    <h2 class="title-payment">Cashless Payment</h2>
-                    <p class="lead-payment">Marketing</p>
+            <li class="list-item items-payment">
+                <img class="card-img" src="./images/row1/img2.jpg" alt="Cashless Payment" width="360">
+                <a class="card-content link" href="">
+                    <span class="card-text1">Cashless Payment</span>
+                    <span class="card-text2">Marketing</span>
                 </a>
             </li>
-            <li class="items-meditation">
-                <a class="ikon" href="">
-                    <img class="user-meditation" src="./images/row1/img3.jpg" alt="Meditation App" width="360">
-                    <h2 class="title-meditation">Meditation App</h2>
-                    <p class="lead-meditation">App</p>
+            <li class="list-item items-meditation">
+                <img class="card-img" src="./images/row1/img3.jpg" alt="Meditation App" width="360">
+                <a class="card-content link" href="">
+                    <span class="card-text1">Meditation App</span>
+                    <span class="card-text2">App</span>
                 </a>
             </li>
         </ul>
@@ -86,26 +86,26 @@
 
 
         <ul class="items-row2 list-style">
-            <li class="items-service">
-                <a class="ikon" href="">
-                    <img class="user-service" src="./images/row2/img4.jpg" alt="Taxi Service" width="360">
-                    <h2 class="title-service">Taxi Service</h2>
-                    <p class="lead-service">Marketing</p>
+            <li class="list-item items-service">
+                <img class="card-img" src="./images/row2/img4.jpg" alt="Taxi Service" width="360">
+                <a class="card-content link" href="">
+                    <span class="card-text1">Taxi Service</span>
+                    <span class="card-text2">Marketing</span>
                 </a>
             </li>
 
-            <li class="items-screen">
-                <a class="ikon" href="">
-                    <img class="user-screen" src="./images/row2/img5.jpg" alt="Screen Illustrations" width="360">
-                    <h2 class="title-screen">Screen Illustrations</h2>
-                    <p class="lead-screen">Design</p>
+            <li class="list-item items-screen">
+                <img class="card-img" src="./images/row2/img5.jpg" alt="Screen Illustrations" width="360">
+                <a class="card-content link" href="">
+                    <span class="card-text1">Screen Illustrations</span>
+                    <span class="card-text2">Design</span>
                 </a>
             </li>
-            <li class="items-courses">
-                <a class="ikon" href="">
-                    <img class="user-courses" src="./images/row2/img6.jpg" alt="Online Courses" width="360">
-                    <h2 class="title-courses">Online Courses</h2>
-                    <p class="lead-courses">Marketing</p>
+            <li class="list-item items-courses">
+                <img class="card-img" src="./images/row2/img6.jpg" alt="Online Courses" width="360">
+                <a class="card-content link" href="">
+                    <span class="card-text1">Online Courses</span>
+                    <span class="card-text2">Marketing</span>
                 </a>
             </li>
         </ul>
@@ -113,38 +113,45 @@
         <!-- row3 -->
 
         <ul class="items-row3 list-style">
-            <li class="items-instagram">
-                <a class="ikon" href="">
-                    <img class="user-instagram" src="./images/row3/img7.jpg" alt="Concept" width="360">
-                    <h2 class="title-instagram">Instagram Stories Concept</h2>
-                    <p class="lead-instagram">Design</p>
+            <li class="list-item items-instagram">
+                <img class="card-img" src="./images/row3/img7.jpg" alt="Concept" width="360">
+                <a class="card-content link" href="">
+                    <span class="card-text1">Instagram Stories Concept</span>
+                    <span class="card-text2">Design</span>
                 </a>
             </li>
 
-            <li class="items-food">
-                <a class="ikon" href="">
-                    <img class="user-food" src="./images/row3/img8.jpg" alt="Organic Food" width="360">
-                    <h2 class="title-food">Organic Food</h2>
-                    <p class="lead-food">Web Site</p>
+            <li class="list-item items-food">
+                <img class="card-img" src="./images/row3/img8.jpg" alt="Organic Food" width="360">
+                <a class="card-content link" href="">
+                    <span class="card-text1">Organic Food</span>
+                    <span class="card-text2">Web Site</span>
                 </a>
             </li>
-            <li class="items-coffee">
-                <a class="ikon" href="">
-                    <img class="user-coffee" src="./images/row3/img9.jpg" alt="Fresh Coffee" width="360">
-                    <h2 class="title-coffee">Fresh Coffee</h2>
-                    <p class="lead-coffee">Web Site</p>
+            <li class="list-item items-coffee">
+                <img class="card-img" src="./images/row3/img9.jpg" alt="Fresh Coffee" width="360">
+                <a class="card-content link" href="">
+                    <span class="card-text1">Fresh Coffee</span>
+                    <span class="card-text2">Web Site</span>
                 </a>
             </li>
         </ul>
     </section>
     <!-- footer -->
+    <div class="footerdesc"></div>
     <footer class="footer">
-        <a href="./index.html">
-            Web<span> Studio</span>
-        </a>
+        <div>
+            <a class="link footer-link" href="./index.html">
+                <span class="footer-logo-web">Web</span><span class="footer-logo-studio"> Studio</span>
+            </a>
+        </div>
+
         <p class="desc">Increase the flow of customers and sales for your business with digital marketing & growth
             solutions.</p>
+
+
     </footer>
+
 
 </body>
 

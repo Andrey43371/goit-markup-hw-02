@@ -1,3 +1,4 @@
+
 :root {
   --second-pege-background:#2e2f42;
   --first-text-color: #2e2f42;
@@ -202,12 +203,7 @@ body {
 /* section 4 */
 
 .sectionb {
- background-color: #F4F4FD;  
- position: absolute;
-width: 1440px;
-height: 732px;
-left: 0px;
-top: 1548px;
+
 }
 
 .headlinesections {

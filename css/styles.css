@@ -530,7 +530,17 @@ body {
   top: 168px;
 }
 
+.filters-btn-active:hover,
+.filters-btn-active:focus {
+   color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+
 .filters-btn-active {
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
   padding: 12px 24px;
   width: 69px;
   height: 48px;
@@ -539,8 +549,9 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
 }
 
 .filters-btn {

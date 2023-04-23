@@ -3,6 +3,7 @@
   --second-pege-background:#2e2f42;
   --first-text-color: #2e2f42;
   --second-text-color: #434455;
+  --third-text-color: #4d5ae5;
 }
 
 body {
@@ -318,43 +319,32 @@ body {
   width: 264px;
   height: 112px;
   left: 156px;
-  top: 2380px;
 }
 
 .box-logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway",sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  align-items: center;
+  line-height: 1.17;
   text-transform: uppercase;
-  color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color:var(--first-text-color);
 }
 
 .box-logo-studio {
-  font-family: "Raleway";
+  font-family: "Raleway",sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  align-items: center;
+  line-height: 1.17;
   text-transform: uppercase;
   color: #f4f4fd;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .boxdesc {
   position: absolute;
   width: 264px;
   height: 72px;
-  left: 156px;
-  top: 2420px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;

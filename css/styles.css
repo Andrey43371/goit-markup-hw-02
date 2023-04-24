@@ -480,7 +480,7 @@ body {
 
 .link:hover,
 .link:focus {
-  color: tomato;
+  color:#404bbf ;
 }
 /*contacts */
 
@@ -732,24 +732,21 @@ top: 1224px;
 }
 
 .footer-link {
-  display: flex;
-  align-items: center;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 1864px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 115px;
+height: 24px;
 }
 
 .footer-logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 1864px;
+position: absolute;
+width: 264px;
+height: 112px;
+left: 156px;
 }
 
 .footer-logo-web {
@@ -793,7 +790,6 @@ top: 1224px;
   width: 264px;
   height: 72px;
   left: 156px;
-  top: 1904px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;

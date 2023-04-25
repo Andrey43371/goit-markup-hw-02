@@ -357,6 +357,10 @@ body {
 
 /* ======================Portfolio======================== */
 
+.list {
+  list-style: none;
+}
+
 .header {
   position: absolute;
   width: 1440px;

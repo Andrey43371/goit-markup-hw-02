@@ -447,7 +447,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--first-text-color);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -489,6 +489,10 @@ body {
 }
 /*contacts */
 
+.address {
+   font-style: normal;
+}
+
 .mail {
   position: absolute;
   width: 153px;
@@ -496,7 +500,6 @@ body {
   left: 940px;
   top: 24px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -511,7 +514,6 @@ body {
   left: 1133px;
   top: 24px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;

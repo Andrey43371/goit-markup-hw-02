@@ -477,7 +477,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--first-text-color);
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -491,21 +491,34 @@ body {
 }
 /*contacts */
 
-.mail-tel {
-  position: absolute;
-  left: 470px;
-  top: 12px;
-  width: 400px;
-}
+
 
 .mail {
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-  margin-right: 40px;
+}
+
+.tel {
+    position: absolute;
+  width: 151px;
+  height: 24px;
+  left: 1133px;
+  top: 24px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color)
 }
 
 

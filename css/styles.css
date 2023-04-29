@@ -484,14 +484,12 @@ body {
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+ .address {
+  font-style: normal;
   color:#404bbf ;
 }
 /*contacts */
-
-.address {
-   font-style: normal;
-}
 
 .mail {
   position: absolute;

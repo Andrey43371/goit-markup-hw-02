@@ -418,7 +418,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--first-text-color);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -462,7 +462,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--first-text-color);
   flex: none;
   order: 1;
   flex-grow: 0;

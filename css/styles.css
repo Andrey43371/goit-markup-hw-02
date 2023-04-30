@@ -317,14 +317,8 @@ top: 1548px;
   background: var(--second-pege-background);
 }
 
-.box-logo {
-  position: absolute;
-  width: 264px;
-  height: 112px;
-  left: 156px;
-}
 
-.box-logo-web {
+.box-link {
   font-family: "Raleway",sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -744,13 +738,6 @@ top: 1224px;
   background: var(--second-pege-background);
 }
 
-.footer-nav {
-  position: absolute;
-width: 264px;
-height: 112px;
-left: 156px;
-top: 1864px;
-}
 
 .footer-link {
 padding: 0px;

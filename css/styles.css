@@ -324,8 +324,9 @@ top: 1548px;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:var(--first-text-color);
+  color:var(--third-text-color);
 }
 
 .box-logo-studio {
@@ -336,7 +337,7 @@ top: 1548px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--third-text-color);
+  color: #f4f4fd;
 }
 
 .boxdesc {

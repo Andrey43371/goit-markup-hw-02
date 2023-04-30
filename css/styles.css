@@ -205,7 +205,7 @@ body {
 }
 /* section 4 */
 
-.sectionb-bg {
+.sectionb {
 background-color: #F4F4FD;
 position: absolute;
 width: 1440px;
@@ -213,14 +213,10 @@ height: 732px;
 left: 0px;
 top: 1548px;
 }
-.sectionb {
-  background-color:#F4F4FD ;
-}
+
 .headlinesections {
  
-  position: absolute;
-  left: 639px;
-  top: 1668px;
+ 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -237,10 +233,8 @@ top: 1548px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 32px;
   position: absolute;
   left: 156px;
-  top: 1780px;
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -273,10 +267,10 @@ top: 1548px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 32px;
+
   position: absolute;
   left: 444px;
-  top: 1780px;
+
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -288,10 +282,10 @@ top: 1548px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 32px;
+
   position: absolute;
   left: 732px;
-  top: 1780px;
+ 
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -303,10 +297,10 @@ top: 1548px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 32px;
+ 
   position: absolute;
   left: 1020px;
-  top: 1780px;
+  
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);

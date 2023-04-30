@@ -534,8 +534,8 @@ top: 1548px;
   top: 168px;
 }
 
-.filters-btn-active:hover,
-.filters-btn-active:focus {
+.filters-btn:hover,
+.filters-btn:focus {
    color: #FFFFFF;
     background-color: #404BBF;
 }

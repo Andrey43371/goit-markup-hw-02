@@ -517,6 +517,10 @@ top: 1548px;
   font-style: normal;
   color:#404bbf ;
 }
+
+.address ul li:nth-child(2) > a {
+  left: 1133px;
+}
 /*contacts */
 
 

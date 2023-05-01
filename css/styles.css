@@ -512,7 +512,7 @@ top: 1548px;
 }
 
 .menu .mail:hover,
-:focus,
+.menu .mail:focus,
  .address {
   font-style: normal;
   color:#404bbf ;

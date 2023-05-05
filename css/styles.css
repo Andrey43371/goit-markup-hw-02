@@ -603,7 +603,7 @@ font-weight: 500;
   border: 1px solid #e7e9fc;
 }
 
-.card-img {
+.concept-img {
   position: absolute;
   width: 360px;
   height: 300px;
@@ -611,31 +611,19 @@ font-weight: 500;
   top: 0px;
   mix-blend-mode: normal;
 }
-
-.card-text {
+.concept-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
-.card-texte {
+.concept-texte {
   font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-
-.card-content {
-  padding: 0px 16px;
-  position: absolute;
-  width: 360px;
-  height: 56px;
-  left: 0px;
-  top: 332px;
-}
-
 .items-payment {
   box-sizing: border-box;
   position: absolute;
@@ -644,6 +632,27 @@ font-weight: 500;
   left: 540px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
+}
+.payment-img {
+  position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+mix-blend-mode: normal;
+}
+.payment-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.payment-texte {
+    font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 
 .items-meditation {
@@ -654,6 +663,27 @@ font-weight: 500;
   left: 924px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
+}
+.meditation-img {
+  position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+mix-blend-mode: normal;
+}
+.meditation-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.meditation-texte {
+    font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 
 /* row2 */
@@ -673,6 +703,26 @@ top: 756px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
 }
+.service-img {
+  position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+}
+.service-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.service-texte {
+    font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
 
 .items-screen {
   box-sizing: border-box;
@@ -683,6 +733,26 @@ top: 756px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
 }
+.screen-img {
+  position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+}
+.screen-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.screen-texte {
+    font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
 
 .items-courses {
   box-sizing: border-box;
@@ -692,6 +762,26 @@ top: 756px;
   left: 924px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
+}
+.courses-img {
+  position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+}
+.courses-text {  
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.courses-texte {
+    font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 
 /* row3 */
@@ -711,6 +801,27 @@ top: 1224px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
 }
+.instagram-img {
+  position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+
+}
+.instagram-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.instagram-texte {
+    font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
 
 .items-food {
   box-sizing: border-box;
@@ -721,6 +832,26 @@ top: 1224px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
 }
+.food-img {
+  position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+}
+.food-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.food-texte {
+    font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
 
 .items-coffee {
   box-sizing: border-box;
@@ -730,6 +861,26 @@ top: 1224px;
   left: 924px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
+}
+.coffee-img {
+  position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+}
+.coffee-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.coffee-texte {
+    font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 
 /* footer */

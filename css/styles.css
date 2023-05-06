@@ -586,270 +586,41 @@ font-weight: 500;
 
 /* row1 */
 
-.items-rowa {
+.items-row {
   position: absolute;
-  width: 1128px;
-  height: 420px;
-  top: 288px;
+  top: 260px;
+  left: 110px;
+  width: 1200px;
 }
-.items-rowa li>a h2{
-  top: 283px;
-}
-.items-rowa li>a p,
-.items-rowa li>a h2,
-.items-rowb li>a p,
-.items-rowb li>a h2,
-.items-rowc li>a p,
-.items-rowc li>a h2
-{
-  padding: 0px 16px;
-  position: absolute;
-  left: 0px;
-}
-.items-rowa li>a h2,
-.items-rowb li>a h2,
-.items-rowc li>a h2
-{
-  top: 300px;
-}
-.items-rowa li>a p,
-.items-rowb li>a p,
-.items-rowc li>a p
-{
-  top: 362px;
-}
-.items-concept {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
+.items-row > li {
+  position: relative;
+  display: inline-block;
   background: #ffffff;
   border: 1px solid #e7e9fc;
+  margin: 25px 10px;
 }
-.items-box {
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px 16px;
-gap: 8px;
 
-position: absolute;
-width: 360px;
-height: 56px;
-left: 0px;
-top: 332px;
-}
-.concept-img {
-  position: absolute;
+.items-row > li a img{
   width: 360px;
   height: 300px;
   left: 0px;
   top: 0px;
   mix-blend-mode: normal;
 }
-
-.concept-text {
+.items-row > li a h2{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding: 0px 16px;
 }
-.concept-texte {
+.items-row > li a p {
   font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-}
-.items-payment {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-}
-.payment-img {
-  position: absolute;
-width: 360px;
-height: 300px;
-left: 0px;
-top: 0px;
-mix-blend-mode: normal;
-}
-.items-meditation {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-}
-.meditation-img {
-  position: absolute;
-width: 360px;
-height: 300px;
-left: 0px;
-top: 0px;
-mix-blend-mode: normal;
-}
-/* row2 */
-.items-rowb {
-  position: absolute;
-  width: 1128px;
-  height: 420px;
-top: 756px;
-}
-
-.items-service {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-}
-.service-img {
-  position: absolute;
-width: 360px;
-height: 300px;
-left: 0px;
-top: 0px;
-}
-.items-screen {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-}
-.screen-img {
-  position: absolute;
-width: 360px;
-height: 300px;
-left: 0px;
-top: 0px;
-}
-.items-courses {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-}
-.courses-img {
-  position: absolute;
-width: 360px;
-height: 300px;
-left: 0px;
-top: 0px;
-}
-/* row3 */
-.items-rowc {
-  position: absolute;
-  width: 1128px;
-  height: 420px;
-top: 1224px;
-}
-
-.items-instagram {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-}
-.instagram-img {
-  position: absolute;
-width: 360px;
-height: 300px;
-left: 0px;
-top: 0px;
-
-}
-.instagram-text {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-.instagram-texte {
-    font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
-.items-food {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-}
-.food-img {
-  position: absolute;
-width: 360px;
-height: 300px;
-left: 0px;
-top: 0px;
-}
-.food-text {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-.food-texte {
-    font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
-.items-coffee {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-}
-.coffee-img {
-  position: absolute;
-width: 360px;
-height: 300px;
-left: 0px;
-top: 0px;
-}
-.coffee-text {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-.coffee-texte {
-    font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
+  padding: 0px 16px;
 }
 
 /* footer */

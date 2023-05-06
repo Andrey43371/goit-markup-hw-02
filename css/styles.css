@@ -592,7 +592,32 @@ font-weight: 500;
   height: 420px;
   top: 288px;
 }
-
+.items-rowa li>a h2{
+  top: 283px;
+}
+.items-rowa li>a p,
+.items-rowa li>a h2,
+.items-rowb li>a p,
+.items-rowb li>a h2,
+.items-rowc li>a p,
+.items-rowc li>a h2
+{
+  padding: 0px 16px;
+  position: absolute;
+  left: 0px;
+}
+.items-rowa li>a h2,
+.items-rowb li>a h2,
+.items-rowc li>a h2
+{
+  top: 300px;
+}
+.items-rowa li>a p,
+.items-rowb li>a p,
+.items-rowc li>a p
+{
+  top: 362px;
+}
 .items-concept {
   box-sizing: border-box;
   position: absolute;

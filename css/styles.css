@@ -602,7 +602,20 @@ font-weight: 500;
   background: #ffffff;
   border: 1px solid #e7e9fc;
 }
+.items-box {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 8px;
 
+position: absolute;
+width: 360px;
+height: 56px;
+left: 0px;
+top: 332px;
+}
 .concept-img {
   position: absolute;
   width: 360px;
@@ -611,6 +624,7 @@ font-weight: 500;
   top: 0px;
   mix-blend-mode: normal;
 }
+
 .concept-text {
   font-weight: 500;
   font-size: 20px;
@@ -641,20 +655,6 @@ left: 0px;
 top: 0px;
 mix-blend-mode: normal;
 }
-.payment-text {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-.payment-texte {
-    font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
 .items-meditation {
   box-sizing: border-box;
   position: absolute;
@@ -672,20 +672,6 @@ left: 0px;
 top: 0px;
 mix-blend-mode: normal;
 }
-.meditation-text {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-.meditation-texte {
-    font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
 /* row2 */
 .items-rowb {
   position: absolute;
@@ -710,20 +696,6 @@ height: 300px;
 left: 0px;
 top: 0px;
 }
-.service-text {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-.service-texte {
-    font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
 .items-screen {
   box-sizing: border-box;
   position: absolute;
@@ -740,20 +712,6 @@ height: 300px;
 left: 0px;
 top: 0px;
 }
-.screen-text {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-.screen-texte {
-    font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
 .items-courses {
   box-sizing: border-box;
   position: absolute;
@@ -770,20 +728,6 @@ height: 300px;
 left: 0px;
 top: 0px;
 }
-.courses-text {  
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-.courses-texte {
-    font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
 /* row3 */
 .items-rowc {
   position: absolute;

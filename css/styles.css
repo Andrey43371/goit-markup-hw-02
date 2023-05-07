@@ -607,14 +607,14 @@ font-weight: 500;
   top: 0px;
   mix-blend-mode: normal;
 }
-.items-row > li a h2{
+.items-row-caption {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   padding: 0px 16px;
 }
-.items-row > li a p {
+.items-row-lead {
   font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
